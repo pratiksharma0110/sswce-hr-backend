@@ -1,5 +1,5 @@
 import { sql, ilike, or, and } from "drizzle-orm";
-import { eq, getTableColumns } from "drizzle-orm";
+import { asc, eq, getTableColumns } from "drizzle-orm";
 import { db } from "../../config/db.js";
 
 const JOIN_METHODS = {
@@ -9,11 +9,11 @@ const JOIN_METHODS = {
   full: "fullJoin",
 };
 
-// Builds a base data/count query pair from a single table
 export function fromTable(table) {
   return {
     dataQuery: db.select().from(table),
     countQuery: db.select({ count: sql`count(*)::int` }).from(table),
+    baseTable: table,
   };
 }
 
@@ -54,8 +54,11 @@ export async function paginateAndSearch(
     pageSize = 20,
   } = {},
 ) {
-  const { dataQuery: baseData, countQuery: baseCount } =
-    source && source.dataQuery ? source : fromTable(source);
+  const {
+    dataQuery: baseData,
+    countQuery: baseCount,
+    baseTable,
+  } = source && source.dataQuery ? source : fromTable(source);
 
   const searchCondition =
     query.trim() !== "" && searchFields.length > 0
@@ -73,6 +76,8 @@ export async function paginateAndSearch(
     countQuery = countQuery.where(finalWhere);
   }
   if (orderBy) dataQuery = dataQuery.orderBy(orderBy);
+
+  if (baseTable) dataQuery = dataQuery.orderBy(asc(baseTable.id));
 
   const offset = (Number(page) - 1) * pageSize;
   const [items, countResult] = await Promise.all([
