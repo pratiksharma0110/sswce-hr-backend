@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "JLPT N5"
+      },
+      "title": "JLPT N5",
+      "description": "Beginner-level Japanese covering basic grammar, hiragana/katakana, and everyday conversation. Ideal for first-time learners.\n\nDuration: 3 months — Rs. 12,000",
+      "slug": "jlpt-n5"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "JLPT N4"
+      },
+      "title": "JLPT N4",
+      "description": "Builds on N5 with expanded grammar, kanji, and listening practice, preparing students for entry-level workplace communication.\n\nDuration: 4 months — Rs. 15,000",
+      "slug": "jlpt-n4"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "JFT-Basic"
+      },
+      "title": "JFT-Basic",
+      "description": "Focused preparation for the Japan Foundation Test for Basic Japanese, required for most SSW visa categories.\n\nDuration: 3 months — Rs. 13,000",
+      "slug": "jft-basic"
+    }
+  ]
+}

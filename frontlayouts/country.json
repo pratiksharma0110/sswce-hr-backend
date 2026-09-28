@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Japan"
+      },
+      "title": "Japan",
+      "description": "Japan is a highly sought-after destination for skilled workers. The SSW visa program offers numerous opportunities in various sectors like caregiving, construction, and agriculture.",
+      "slug": "japan"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "South Korea"
+      },
+      "title": "South Korea",
+      "description": "South Korea provides excellent employment prospects for international workers through the EPS program, primarily in manufacturing, agriculture, and construction.",
+      "slug": "south-korea"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Australia"
+      },
+      "title": "Australia",
+      "description": "Australia offers diverse opportunities for skilled professionals with its strong economy and high quality of life. Explore various visa options tailored to your skills.",
+      "slug": "australia"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Canada"
+      },
+      "title": "Canada",
+      "description": "Canada is known for its welcoming immigration policies. With programs like Express Entry, it is a prime destination for skilled workers worldwide.",
+      "slug": "canada"
+    }
+  ]
+}

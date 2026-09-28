@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Career Counselling"
+      },
+      "title": "Career Counselling",
+      "description": "One-on-one guidance to help you choose the right course and career path, including preparation support for the International English Language Testing System (IELTS).",
+      "slug": "career-counselling"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Test Preparations"
+      },
+      "title": "Test Preparations",
+      "description": "Preparing for tests can be stressful, but SSW Training Centre Nepal is here to help — with structured practice sessions and mock tests for every stage of your journey.",
+      "slug": "test-preparations"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Hostel Facility"
+      },
+      "title": "Hostel Facility",
+      "description": "We understand that finding a comfortable place to stay is essential for our trainees, which is why we offer safe, affordable hostel accommodation close to the training center.",
+      "slug": "hostel-facility"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "SSW Training"
+      },
+      "title": "SSW Training",
+      "description": "We provide hands-on training programs to equip you with the skills needed for Japan's Specified Skilled Worker (SSW) visa, across categories like caregiving, construction, and agriculture.",
+      "slug": "ssw-training"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "JFT"
+      },
+      "title": "JFT",
+      "description": "Japanese language is crucial for a successful life and career in Japan. Our JFT-Basic preparation classes build the everyday communication skills you'll need from day one.",
+      "slug": "jft"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Visa Guidance"
+      },
+      "title": "Visa Guidance",
+      "description": "Navigating the visa process can be complex and time-consuming, but at SSW Nepal, our team guides you through every document, deadline, and interview — start to finish.",
+      "slug": "visa-guidance"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Construction"
+      },
+      "title": "Construction",
+      "description": "Gain practical skills and industry knowledge for construction-related work in Japan, including tool handling, site safety, and hands-on techniques used on real job sites.\n\nDuration: 6 weeks — Rs. 14,000",
+      "slug": "construction"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Agriculture"
+      },
+      "title": "Agriculture",
+      "description": "Develop essential agricultural skills and knowledge to prepare for greenhouse operations, crop handling, and the machinery commonly used in Japan's farming sector.\n\nDuration: 6 weeks — Rs. 12,000",
+      "slug": "agriculture"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Food Service"
+      },
+      "title": "Food Service",
+      "description": "Learn essential food service skills, workplace practices, and hygiene knowledge required to work confidently in Japan's restaurant and hospitality industry.\n\nDuration: 4 weeks — Rs. 10,000",
+      "slug": "food-service"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Aviation Ground Handling"
+      },
+      "title": "Aviation Ground Handling",
+      "description": "Build practical knowledge and skills for airport ground operations, including baggage handling, safety procedures, and coordination with flight crews.\n\nDuration: 6 weeks — Rs. 15,000",
+      "slug": "aviation-ground-handling"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "Nursing Caregiver"
+      },
+      "title": "Nursing Caregiver",
+      "description": "Develop the essential knowledge, skills, and care practices needed to support elderly and dependent individuals in Japan's caregiving facilities.\n\nDuration: 2 months — Rs. 18,000",
+      "slug": "nursing-caregiver"
+    },
+    {
+      "image": {
+        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
+        "alt": "JLPT N5 Preparation"
+      },
+      "title": "JLPT N5 Preparation",
+      "description": "Build your Japanese language foundation with beginner-level grammar, vocabulary, and conversation skills required for the JLPT N5 exam.\n\nDuration: 3 months — Rs. 12,000",
+      "slug": "jlpt-n5-preparation"
+    }
+  ]
+}
