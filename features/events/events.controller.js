@@ -21,11 +21,18 @@ export async function createEventController(req, res) {
 }
 
 export async function getEventsController(req, res) {
-  const result = await commonGetService(events);
+  const query = {
+    search: req.query.search,
+    page: req.query.page,
+    pageSize: req.query.pageSize ?? req.query.limit,
+    orderBy: req.query.orderBy,
+  };
+
+  const result = await commonGetService(events, query);
 
   res.status(StatusCodes.OK).json({
     success: true,
-    items: result,
+    ...result,
     resource: "all events",
   });
 }

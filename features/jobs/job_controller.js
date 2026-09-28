@@ -24,6 +24,7 @@ import { buildWhereFromQuery } from "#/common/utils/queryhelper.js";
 function jobsWithMedia() {
   return join(jobs, media, {
     on: eq(jobs.content, media.id),
+    type: "left",
     name: "jobs",
     fields: {
       ...getTableColumns(jobs),
@@ -89,7 +90,7 @@ export async function getJobs(req, res) {
   const query = {
     search: req.query.search,
     page: req.query.page,
-    pageSize: req.query.pageSize,
+    pageSize: req.query.pageSize ?? req.query.limit,
     searchFields: searchFields,
     orderBy: req.query.orderBy,
     where: buildWhereFromQuery(jobs, req.query, filters),
