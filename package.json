@@ -11,6 +11,7 @@
     "start": "node server.js",
     "newadmin": "node scripts/createAdmin.js",
     "passwd": "node scripts/updateAdmin.js",
+    "seedjobs:locations": "node scripts/seedJobLocations.js",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",

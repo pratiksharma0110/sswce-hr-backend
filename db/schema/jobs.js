@@ -3,6 +3,8 @@ import { sql } from "drizzle-orm";
 import { pkid, timestamps } from "./helpers.js";
 import { media } from "./media.js";
 
+export const jobStatusEnum = t.pgEnum("job_status", ["open", "close"]);
+
 export const jobs = t.pgTable("jobs", {
   ...pkid,
   ...timestamps,
@@ -18,7 +20,13 @@ export const jobs = t.pgTable("jobs", {
   description: t.text("description").notNull(),
   salary: t.varchar("salary", { length: 255 }).notNull(),
   experience: t.varchar("experience", { length: 255 }),
+  location: t
+    .varchar("location", { length: 255 })
+    .notNull()
+    .default("Tokyo, Japan"),
   content: t.uuid("content").references(() => media.id),
   workingHours: t.varchar("workingHours", { length: 255 }),
   details: t.jsonb("details"),
+
+  status: jobStatusEnum("status").notNull().default("open"),
 });
