@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { slugify } from "#/common/utils/strings.js";
 
 import { insertEventSchema } from "./events.schema.js";
 import {
@@ -46,9 +47,10 @@ router
       desc(events.createdAt),
     ),
   )
-  .post(authenticateUser, authorizePermissions("admin"), (req, res) =>
-    commonCreateController(req, res, events, insertEventSchema),
-  );
+  .post(authenticateUser, authorizePermissions("admin"), (req, res) => {
+    req.body.slug = slugify(req.body.title);
+    commonCreateController(req, res, events, insertEventSchema)
+  });
 
 router.route("/");
 

@@ -5,6 +5,7 @@ import { join } from "#/common/utils/queryhelper.js";
 import { desc, eq } from "drizzle-orm";
 import { media } from "#/db/schema/media.js";
 import { getTableColumns } from "drizzle-orm";
+import { slugify } from "#/common/utils/strings.js";
 import {
   commonCreateController,
   commonGetController,
@@ -47,9 +48,10 @@ router
       desc(notices.createdAt),
     ),
   )
-  .post(authenticateUser, authorizePermissions("admin"), (req, res) =>
-    commonCreateController(req, res, notices, createNoticeSchema),
-  );
+  .post(authenticateUser, authorizePermissions("admin"), (req, res) => {
+    req.body.slug = slugify(req.body.title);
+    commonCreateController(req, res, notices, createNoticeSchema)
+  });
 
 router.route("/:id").get((req, res) =>
   commonGetSingleController(

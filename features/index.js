@@ -19,7 +19,7 @@ const router = Router();
 router.use("/auth", authRoutes);
 router.use("/contact", contactRoutes);
 router.use("/events", eventRoutes);
-
+router.use("/notices", noticeRoutes);
 router.use("/users", userRoutes);
 router.use("/notices", noticeRoutes);
 router.use("/media", mediaRoutes);
