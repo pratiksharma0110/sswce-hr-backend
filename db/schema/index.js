@@ -11,4 +11,4 @@ export * from "./appointment.js";
 export * from "./jobs.js";
 //export * from "./successProfiles.js";
 
-//export * from "./testimonials.js";
+export * from "./testimonials.js";

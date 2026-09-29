@@ -13,7 +13,7 @@ import {
   commonGetSingleServiceBySlug,
 } from "#/common/feature/common.services.js";
 import { join } from "#/common/utils/queryhelper.js";
-import { eq, getTableColumns } from "drizzle-orm";
+import { eq, getTableColumns, desc } from "drizzle-orm";
 import { media } from "#/db/schema/media.js";
 
 import { StatusCodes } from "http-status-codes";
@@ -82,7 +82,6 @@ export async function updateJob(req, res) {
 }
 
 export async function getJobs(req, res) {
-
   const searchFields = [jobs.title, jobs.workingHours, jobs.salary];
 
   const filters = ["status", "job_id", "jobTitle"];
@@ -92,7 +91,7 @@ export async function getJobs(req, res) {
     page: req.query.page,
     pageSize: req.query.pageSize ?? req.query.limit,
     searchFields: searchFields,
-    orderBy: req.query.orderBy,
+    orderBy: desc(jobs.createdAt),
     where: buildWhereFromQuery(jobs, req.query, filters),
   };
 
