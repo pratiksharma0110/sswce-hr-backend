@@ -2,57 +2,102 @@
   "items": [
     {
       "image": {
-        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
-        "alt": "Career Counselling"
+        "src": "https://sswcehumanresources.com/uploads/media/39c5cafb-634b-43cd-87be-50923dec24b4.jpg",
+        "alt": "japan"
       },
-      "title": "Career Counselling 1",
-      "description": "One-on-one guidance to help you choose the right course and career path, including preparation support for the International English Language Testing System (IELTS).",
-      "slug": "career-counselling-1"
+      "title": "Japanese Language Classes N5/N4/N3",
+      "description": "Learning Japanese is an important first step for anyone planning to work and build a life in Japan. Our Japanese language classes are designed for learners at different stages, from beginners preparing for N5 to those progressing toward N4 and N3.\n\nThe classes focus on practical Japanese that can be useful both inside and outside the workplace. Students work on essential vocabulary, grammar, reading, listening, pronunciation, and everyday communication while gradually building their confidence in using the language.\n\nOur structured approach helps students understand Japanese step by step rather than simply memorizing words for an examination. Regular practice, guidance, and classroom activities allow learners to improve their communication skills while preparing for the language requirements of their journey to Japan.\n\nWhether you are starting Japanese for the first time or looking to improve your existing skills, our courses provide a clear learning path to help you move toward your language goals.",
+      "slug": "japanese-language-classes-n5n4n3"
     },
     {
       "image": {
-        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
-        "alt": "Test Preparations"
+        "src": "https://sswcehumanresources.com/uploads/media/a19952be-4d76-4339-86f2-ff91499cab12.jpg",
+        "alt": "Candidates taking the Specified Skilled Worker skill test"
       },
-      "title": "Test Preparations",
-      "description": "Preparing for tests can be stressful, but SSW Training Centre Nepal is here to help — with structured practice sessions and mock tests for every stage of your journey.",
-      "slug": "test-preparations"
+      "title": "SSW Skill Test Preparation",
+      "description": "Preparing for the Specified Skilled Worker skill test requires more than simply understanding the examination format. Candidates need to develop knowledge and practical understanding related to the specific field in which they plan to work.\n\nOur SSW Skill Test Preparation program is designed to help candidates prepare systematically for their selected sector. Training focuses on the important concepts, terminology, procedures, and practical knowledge that candidates may need to understand before taking the skill test.\n\nCandidates receive structured guidance throughout their preparation, allowing them to identify areas that need improvement and become more familiar with the type of knowledge expected in their chosen field. Practice and revision are included to help candidates approach the examination with greater familiarity and confidence.\n\nOur goal is to make the preparation process easier to understand and give candidates a clear direction as they work toward meeting the skill requirements for employment in Japan.",
+      "slug": "ssw-skill-test-preparation"
     },
     {
       "image": {
-        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
-        "alt": "Hostel Facility"
+        "src": "https://sswcehumanresources.com/uploads/media/39c5cafb-634b-43cd-87be-50923dec24b4.jpg",
+        "alt": "japan"
       },
-      "title": "Hostel Facility",
-      "description": "We understand that finding a comfortable place to stay is essential for our trainees, which is why we offer safe, affordable hostel accommodation close to the training center.",
-      "slug": "hostel-facility"
+      "title": "JLPT / JFT Preparation",
+      "description": "Japanese language proficiency can play an important role in preparing for opportunities in Japan. Our JLPT and JFT preparation classes are designed to help candidates develop the language skills required for their chosen examination and their future communication needs.\n\nThe preparation covers important areas such as vocabulary, grammar, reading, listening, and practical language usage. Lessons are structured according to the candidate's current level, with regular exercises and practice to help strengthen areas where improvement is needed.\n\nRather than focusing only on memorizing answers, we encourage students to understand how the Japanese language is used in real situations. This helps them build a stronger foundation that can be useful not only during the examination but also in everyday life and workplace communication.\n\nWith regular practice, guidance, and a structured study approach, candidates can prepare more effectively and understand what they need to work on before taking their JLPT or JFT examination.",
+      "slug": "jlpt-jft-preparation"
     },
     {
       "image": {
-        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
-        "alt": "SSW Training"
+        "src": "https://sswcehumanresources.com/uploads/media/60835849-4a14-43e5-b6ed-cc37be227502.jpg",
+        "alt": "Candidate and employer taking part in an interview"
       },
-      "title": "SSW Training",
-      "description": "We provide hands-on training programs to equip you with the skills needed for Japan's Specified Skilled Worker (SSW) visa, across categories like caregiving, construction, and agriculture.",
-      "slug": "ssw-training"
+      "title": "Candidate Screening and Interviews",
+      "description": "Finding the right candidate is an important part of creating a successful connection between workers and employers. Our candidate screening process focuses on understanding each candidate's skills, qualifications, experience, communication ability, and suitability for the available position.\n\nWe review candidate information and requirements before moving forward with the recruitment process. This allows us to better understand the candidate's background and identify opportunities that match their qualifications and the needs of the employer.\n\nInterview preparation is also an important part of the process. Candidates are guided on how to present their experience, communicate clearly, understand workplace expectations, and prepare for discussions with potential employers.\n\nThrough a structured screening and interview process, we aim to make recruitment more organized and transparent for both candidates and employers while helping candidates approach each opportunity with better preparation.",
+      "slug": "candidate-screening-and-interviews"
     },
     {
       "image": {
-        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
-        "alt": "JFT"
+        "src": "https://sswcehumanresources.com/uploads/media/7f26dc1f-062e-4cca-9506-60a83a9d4366.jpg",
+        "alt": "Students preparing for the JLPT and JFT exams"
       },
-      "title": "JFT",
-      "description": "Japanese language is crucial for a successful life and career in Japan. Our JFT-Basic preparation classes build the everyday communication skills you'll need from day one.",
-      "slug": "jft"
+      "title": "Skill and Qualification Verification",
+      "description": "Accurate candidate information is an important part of a reliable recruitment process. Our skill and qualification verification service helps ensure that the necessary certificates, qualifications, work experience, and supporting documents are properly reviewed before a candidate proceeds further.\n\nWe carefully check the information provided by candidates and organize the required documentation according to the recruitment and employment requirements. Where necessary, we assist candidates in understanding which documents need to be prepared and what information may need further clarification.\n\nThis process helps reduce confusion during later stages of recruitment and documentation. It also gives employers clearer information when reviewing candidates for available positions.\n\nBy paying attention to qualifications and supporting documents at an early stage, we help create a more organized process for candidates, employers, and other parties involved in the recruitment journey.",
+      "slug": "skill-and-qualification-verification"
     },
     {
       "image": {
-        "src": "http://localhost:5000/uploads/media/1f36fda3-3b36-41db-b6da-fedf97bd7344.jpg",
-        "alt": "Visa Guidance"
+        "src": "https://sswcehumanresources.com/uploads/media/b8092d34-8e7f-45ab-8f24-7211527bc80a.jpg",
+        "alt": "Recruiter screening a candidate"
       },
-      "title": "Visa Guidance",
-      "description": "Navigating the visa process can be complex and time-consuming, but at SSW Nepal, our team guides you through every document, deadline, and interview — start to finish.",
-      "slug": "visa-guidance"
+      "title": "Employer Interview Coordination",
+      "description": "Connecting candidates with employers requires clear communication and careful coordination. Our employer interview coordination service helps manage the communication between candidates and employers throughout the interview process.\n\nWe assist with scheduling interviews, sharing relevant information, communicating requirements, and coordinating the arrangements needed before the interview takes place. Candidates are also guided on what to expect and how to prepare for their interaction with the employer.\n\nFor employers, our coordination helps make communication with candidates more organized and straightforward. For candidates, it provides a clear point of communication and helps them stay informed about interview arrangements and requirements.\n\nFrom the initial scheduling to the completion of the interview, we work to keep the process organized so that both candidates and employers can focus on understanding each other and discussing the employment opportunity.",
+      "slug": "employer-interview-coordination"
+    },
+    {
+      "image": {
+        "src": "https://sswcehumanresources.com/uploads/media/1907b0ed-5479-4d95-b90d-c95b2152c2e5.jpg",
+        "alt": "Candidate signing an employment contract"
+      },
+      "title": "Employment Contract Coordination",
+      "description": "Once a candidate has been selected, the employment contract becomes an important part of the next stage of the process. Our employment contract coordination service helps candidates and employers manage the required communication and documentation involved in establishing the employment relationship.\n\nWe assist with coordinating the exchange and review of relevant employment information, including the important terms and conditions that candidates need to understand before proceeding.\n\nOur team helps ensure that communication between the candidate and employer remains clear throughout the process. Candidates can receive guidance on the documentation they are expected to review and complete, while employers can coordinate the necessary information through an organized process.\nWe aim to make this stage easier to understand for candidates while supporting smooth communication between all parties involved before the candidate moves forward to the visa and deployment stages.",
+      "slug": "employment-contract-coordination"
+    },
+    {
+      "image": {
+        "src": "https://sswcehumanresources.com/uploads/media/3eb99f77-fb5d-4603-bb96-9ba74b5a6501.jpg",
+        "alt": "Visa application documents and passport"
+      },
+      "title": "Visa and Documentation Support",
+      "description": "Preparing the correct documents is an important part of the journey to Japan. Our visa and documentation support service helps candidates understand and organize the documents required for the next stage of their application and employment process.\n\nWe assist candidates with document preparation, checking, organization, and coordination. This may include helping candidates understand what information is required, identifying missing documents, and ensuring that paperwork is prepared in an organized manner before submission.\n\nThe documentation process can sometimes feel complicated, particularly for candidates who are going through it for the first time. Our team provides guidance throughout the process so candidates know what needs to be prepared and what steps they need to complete.\n\nOur role is to provide practical support and coordination while helping candidates move through the documentation process with greater clarity and confidence.",
+      "slug": "visa-and-documentation-support"
+    },
+    {
+      "image": {
+        "src": "https://sswcehumanresources.com/uploads/media/ccecfbe7-f811-4464-812c-1e44221f6fe7.jpg",
+        "alt": "Travel arrangements and flight documents for departing workers"
+      },
+      "title": "Travel and Deployment Coordination",
+      "description": "Getting selected for a job in Japan is an important milestone, but preparing for life in a new country involves more than arranging a flight. Our pre-departure orientation helps candidates understand what they can expect before leaving Nepal and starting their new chapter in Japan.\n\nThe orientation covers practical information related to living and working in Japan, including workplace expectations, communication, Japanese culture, daily routines, responsibilities, and important considerations for adapting to a new environment.\n\nCandidates are also given an opportunity to understand the importance of professional behavior, punctuality, workplace communication, and respecting local rules and customs. This preparation can help reduce uncertainty and give candidates a clearer idea of what life after arrival may look like.\n\nOur goal is to help candidates leave with the practical knowledge and awareness they need to begin their journey responsibly and with greater confidence.",
+      "slug": "travel-and-deployment-coordination"
+    },
+    {
+      "image": {
+        "src": "https://sswcehumanresources.com/uploads/media/fe53ca5c-f151-497d-a8e9-c1e70f900849.jpg",
+        "alt": "Candidate completing a skill qualification assessment"
+      },
+      "title": "Post-Arrival Communication and Support",
+      "description": "Once the necessary recruitment, documentation, and visa processes have been completed, candidates can begin preparing for their journey to Japan. Our travel and deployment coordination service supports candidates through this final stage before departure.\n\nWe help coordinate important travel-related arrangements and communicate the necessary information to candidates so they know what to prepare before leaving. This includes coordinating travel schedules, required documents, departure information, and communication with the relevant parties involved in the deployment process.\n\nMoving to another country for employment can involve many small but important arrangements. Our team helps candidates stay informed and prepared so that the transition from preparation to departure is as organized as possible.\n\nFrom the final preparations in Nepal to the journey toward Japan, we remain involved in the coordination process to help candidates move forward with greater clarity and confidence.",
+      "slug": "post-arrival-communication-and-support"
+    },
+    {
+      "image": {
+        "src": "https://sswcehumanresources.com/uploads/media/14555730-af9d-4f3d-8c00-3bf130c2b289.jpg",
+        "alt": "Group orientation session for departing candidates"
+      },
+      "title": "Pre-Departure Orientation",
+      "description": "Our support does not end when a candidate arrives in Japan. The first few weeks and months can involve many changes as candidates become familiar with their workplace, daily routines, local environment, and responsibilities.\n\nOur post-arrival communication and support service helps maintain communication between candidates, employers, and relevant support teams after arrival. Candidates can communicate questions or concerns through the appropriate channels, while important information can be shared between the relevant parties when required.\n\nWe understand that adjusting to a new country and workplace takes time. Maintaining communication during this period can help candidates understand their responsibilities and communicate more effectively when they need assistance.\n\nOur continued communication and support are intended to help create a smoother transition from arriving in Japan to becoming familiar with the workplace and daily life there.",
+      "slug": "pre-departure-orientation"
     }
   ]
 }
