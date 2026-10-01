@@ -239,6 +239,11 @@ export async function deleteBlogService(user, id) {
 
   var author;
 
+  if (user.role === "admin") {
+    await deleteBlogById(id);
+    return
+  }
+
   if (user.role === "author") {
     author = await requireAuthorProfile(user.id);
   }
